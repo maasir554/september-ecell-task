@@ -29,6 +29,6 @@ export const Hero = ()  => (
 
         </div>
         
-        <a className="px-6 py-2 bg-neutral-50 text-neutral-950 text-xs sm:text-sm font-medium whitespace-nowrap" href="https://ecellnitb.com"> Contact us</a>
+        <a className="px-6 py-2 bg-white text-black text-xs sm:text-sm font-medium whitespace-nowrap" href="https://ecellnitb.com"> Contact us</a>
     </section>
 )
