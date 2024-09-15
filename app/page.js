@@ -3,6 +3,7 @@ import fblogo from "./assets/logos/facebook.svg"
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { Opportunities } from "./components/Opportunities";
+import { Registration } from "./components/Registration";
 
 import { Navbar } from "./components/Navbar";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Opportunities/>
+      <Registration/>
     </div>
   );
 }
