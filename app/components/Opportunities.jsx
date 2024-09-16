@@ -6,7 +6,7 @@ const FeatureCard = ({text, imgLink}) => (
     <div className=" rounded-xl sm:rounded-2xl md:rounded-3xl lg:rounded-[45px] bg-white flex flex-col justify-center md:justify-around items-center py-4 sm:py-9 md:py-10 px-2 sm:px-8 h-52 sm:h-64 md:h-72 lg:h-80 min-w-32 flex-1 sm:flex-none sm:w-64 md:w-72 z-10 shadow-md sm:shadow-lg md:shadow-xl lg:shadow-2xl">
         <Image className=" w-14 sm:w-20 md:w-24 mb-5" src={imgLink} width={50} height={50}/>
         
-        <div className="text-center font-semibold text-sm sm:text-2xl leading-6 md:leading-9 tracking-normal">
+        <div className="text-center font-semibold text-sm sm:text-lg md:text-xl leading-6 md:leading-9 tracking-normal">
            
             {text.split('\n').map( (str,jdx) => (<p key={jdx}>{str}</p>))} 
            
