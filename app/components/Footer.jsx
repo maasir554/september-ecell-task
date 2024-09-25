@@ -10,7 +10,7 @@ import ytIcon from "../assets/logos/youtube.svg"
 import instaIcon from "../assets/logos/instagram.svg"
 
 export const Footer = () => (
-    <footer className="w-full bg-white flex gap-4 justify-center items-center flex-wrap pb-36"> 
+    <footer className="w-full bg-white flex gap-4 justify-center items-center flex-wrap pb-10 sm:pb-24 md:pb-32 lg:pb-36"> 
         <Subscribe className="col-span-2 -translate-y-1/3 lg:-translate-y-1/2"/>
         <span className="flex box-border h-1 w-full max-w-7xl mt-0 m-14 sm:m-16 md:m-20 bg-primary col-span-2 -translate-y-10" />
         
@@ -47,13 +47,13 @@ export const Footer = () => (
                         <Image src={mailIcon} width={30} height={30} />
                        <a href="mailto:support@ecellnitb.com">support@ecellnitb.com</a>
                     </span>
-                    <span className="gap-10 flex items-center justify-end mt-20">
+                    <span className="gap-10 flex items-center justify-end mt-14 sm:mt-16 md:mt-20">
                         <a className="cursor-pointer"><Image src={fbIcon} width={30} height={30} /></a>
                         <a className="cursor-pointer"><Image src={inIcon} width={30} height={30} /></a>
                         <a className="cursor-pointer"><Image src={ytIcon} width={30} height={30} /></a>
                         <a className="cursor-pointer"><Image src={instaIcon} width={30} height={30} /></a>
                     </span>
-                    <span className="gap-4 flex items-center justify-end text-neutral-400 mt-10">
+                    <span className="gap-4 flex items-center justify-end text-neutral-400 mt-6 sm:mt-8 md:mt-10">
                     Copyright © 2023 • E-Cell MANIT Bhopal
                     </span>
                 </div>
