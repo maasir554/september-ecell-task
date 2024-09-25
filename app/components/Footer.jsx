@@ -48,10 +48,10 @@ export const Footer = () => (
                        <a href="mailto:support@ecellnitb.com">support@ecellnitb.com</a>
                     </span>
                     <span className="gap-10 flex items-center justify-end mt-14 sm:mt-16 md:mt-20">
-                        <a className="cursor-pointer"><Image src={fbIcon} width={30} height={30} /></a>
-                        <a className="cursor-pointer"><Image src={inIcon} width={30} height={30} /></a>
-                        <a className="cursor-pointer"><Image src={ytIcon} width={30} height={30} /></a>
-                        <a className="cursor-pointer"><Image src={instaIcon} width={30} height={30} /></a>
+                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85"><Image src={fbIcon} width={30} height={30} /></a>
+                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85"><Image src={inIcon} width={30} height={30} /></a>
+                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85"><Image src={ytIcon} width={30} height={30} /></a>
+                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85"><Image src={instaIcon} width={30} height={30} /></a>
                     </span>
                     <span className="gap-4 flex items-center justify-end text-neutral-400 mt-6 sm:mt-8 md:mt-10">
                     Copyright © 2023 • E-Cell MANIT Bhopal
