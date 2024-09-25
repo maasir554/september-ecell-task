@@ -22,8 +22,8 @@ module.exports = {
 
       fontFamily:{
         "roboto" : ['Roboto', ...defaultTheme.fontFamily.sans],
-        "poppins" : ['Poppins', ...defaultTheme.fontFamily.sans
-        ]
+        "poppins" : ['Poppins', ...defaultTheme.fontFamily.sans],
+        "caveat" : '"Caveat", cursive'
       }
     },
   },

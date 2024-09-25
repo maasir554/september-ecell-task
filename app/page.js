@@ -4,6 +4,7 @@ import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { Opportunities } from "./components/Opportunities";
 import { Registration } from "./components/Registration";
+import { Footer } from "./components/Footer";
 
 import { Navbar } from "./components/Navbar";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <About/>
       <Opportunities/>
       <Registration/>
+      <Footer/>
     </div>
   );
 }

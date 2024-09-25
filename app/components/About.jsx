@@ -7,7 +7,7 @@ export const About = () => {
                 <span className="h-[2px] flex-1 bg-primary"></span>
             </div>
 
-            <p className="text-lg text-neutral-500 text-justify md:text-center w-full max-w-8xl leading-9 tracking-normal ">
+            <p className="text-lg text-neutral-500 text-justify md:text-center w-full max-w-7xl leading-9 tracking-normal ">
                 Alumni Reunion is a jubilant event
                 aimed at celebrating the imperial
                 legacy of graduated pupil of Maulana
