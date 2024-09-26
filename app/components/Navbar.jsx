@@ -36,7 +36,7 @@ const Hamburger = ({className}) => {
     },[isMenuOpen])
 
     return ( !isMenuOpen?
-        <div className={"group h-3/4 aspect-square flex flex-col justify-between py-2" + " " + className} onClick={clickHandeler}>
+        <div className={"group h-3/4 aspect-square flex flex-col justify-between py-4vw sm:py-2" + " " + className} onClick={clickHandeler}>
             <span className="h-1/6 w-full bg-white group-hover:bg-primary transition" />
             <span className="h-1/6 w-full bg-white group-hover:bg-primary transition" />
             <span className="h-1/6 w-full bg-white group-hover:bg-primary transition" />
