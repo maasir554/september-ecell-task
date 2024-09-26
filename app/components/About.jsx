@@ -1,6 +1,6 @@
 export const About = () => {
     return(
-        <section className="w-full min-h-96 px-8 py-12 sm:py-18 md:py-20 flex flex-col justify-start items-center">
+        <section id="about" className="w-full min-h-96 px-8 py-12 sm:py-18 md:py-20 flex flex-col justify-start items-center">
             <div className="w-full max-w-3xl flex flex-row lg:gap-14 md:gap-8 gap-4 items-center mb-6 sm:mb-12 ">
                 <span className="h-[2px] flex-1 bg-primary"></span>
                 <span className="text-2xl sm:text-4xl font-semibold ">About the Event</span>

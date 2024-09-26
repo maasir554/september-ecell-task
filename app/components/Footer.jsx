@@ -10,11 +10,11 @@ import ytIcon from "../assets/logos/youtube.svg"
 import instaIcon from "../assets/logos/instagram.svg"
 
 export const Footer = () => (
-    <footer className="w-full bg-white flex gap-4 justify-center items-center flex-wrap pb-10 sm:pb-24 md:pb-32 lg:pb-36"> 
+    <footer id="contact" className="w-full bg-white flex gap-4 justify-center items-center flex-wrap pb-10 sm:pb-24 md:pb-32 lg:pb-36"> 
         <Subscribe className="col-span-2 -translate-y-1/3 lg:-translate-y-1/2"/>
-        <span className="flex box-border h-1 w-full max-w-7xl mt-0 m-14 sm:m-16 md:m-20 bg-primary col-span-2 -translate-y-10" />
+        <span className="flex box-border h-1 w-full max-w-[85vw] mt-0 m-14 sm:m-16 md:m-20 bg-primary col-span-2 -translate-y-10" />
         
-       <div className="w-4/5 max-w-7xl flex items-center justify-between gap-10 flex-wrap">
+       <div className="w-4/5 max-w-7xl flex items-center justify-between gap-10 flex-wrap text-sm sm:text-lg">
             <span className="flex flex-1 flex-col  gap-10 ">
                 <span className="flex-1 flex justify-between gap-10 max-w-[300px]">
                     <span className="whitespace-nowrap">Pratham Patidar</span><span>9294836692</span>
@@ -30,9 +30,9 @@ export const Footer = () => (
                 </span>
                 <span className="flex-1 flex items-center justify-start gap-10 text-xs whitespace-nowrap mt-20 flex-wrap text-neutral-900">
                     <a className="hover:underline text-sm text-neutral-950" href="#about">ABOUT EVENT</a>
-                    <a className="hover:underline" href="#about">REGISTER</a>
-                    <a className="hover:underline" href="#about">E-CELL MANIT</a>
-                    <a className="hover:underline" href="#about">E-SUMMIT 23'</a>
+                    <a className="hover:underline" href="#register">REGISTER</a>
+                    <a className="hover:underline" href="https://ecellnitb.in">E-CELL MANIT</a>
+                    <a className="hover:underline" href="https://esummit.ecellnitb.in">E-SUMMIT 23'</a>
                 </span>
             </span>
 
@@ -48,10 +48,10 @@ export const Footer = () => (
                        <a href="mailto:support@ecellnitb.com">support@ecellnitb.com</a>
                     </span>
                     <span className="gap-10 flex items-center justify-end mt-14 sm:mt-16 md:mt-20">
-                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85"><Image src={fbIcon} width={30} height={30} /></a>
-                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85"><Image src={inIcon} width={30} height={30} /></a>
-                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85"><Image src={ytIcon} width={30} height={30} /></a>
-                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85"><Image src={instaIcon} width={30} height={30} /></a>
+                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85" href="https://github.com/maasir554" ><Image src={fbIcon} width={30} height={30} /></a>
+                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85" href="https://github.com/maasir554" ><Image src={inIcon} width={30} height={30} /></a>
+                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85" href="https://github.com/maasir554" ><Image src={ytIcon} width={30} height={30} /></a>
+                        <a className="cursor-pointer hover:scale-105 transition-transform active:opacity-85" href="https://github.com/maasir554" ><Image src={instaIcon} width={30} height={30} /></a>
                     </span>
                     <span className="gap-4 flex items-center justify-end text-neutral-400 mt-6 sm:mt-8 md:mt-10">
                     Copyright © 2023 • E-Cell MANIT Bhopal

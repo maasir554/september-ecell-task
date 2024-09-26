@@ -13,7 +13,7 @@ const TwoInputsGrp = ({ph1,ph2,type_ph1="text"}) => (
 
 
 export const Registration = () => (
-    <section className="py-20 px-4 md:py-36 md:px-8 bg-gradient-to-br from-primary to-secondary min-h-screen w-full flex flex-col justify-center items-center">
+    <section id="register" className="py-20 px-4 md:py-36 md:px-8 bg-gradient-to-br from-primary to-secondary min-h-screen w-full flex flex-col justify-center items-center">
         <form 
             className="shadow-2xl w-full max-w-7xl bg-white flex flex-col justify-center items-center rounded-xl md:rounded-3xl py-10 md:py-24 px-4 md:px-8"
             action="#"
