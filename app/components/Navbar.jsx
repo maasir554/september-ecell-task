@@ -36,16 +36,17 @@ const Hamburger = ({className}) => {
     },[isMenuOpen])
 
     return ( !isMenuOpen?
-        <div className={"group h-3/4 aspect-square flex flex-col justify-between py-4vw sm:py-2" + " " + className} onClick={clickHandeler}>
-            <span className="h-1/6 w-full bg-white group-hover:bg-primary transition" />
-            <span className="h-1/6 w-full bg-white group-hover:bg-primary transition" />
-            <span className="h-1/6 w-full bg-white group-hover:bg-primary transition" />
+        <div className={"group h-1/3 sm:h-1/2 aspect-square flex flex-col justify-between" + " " + className} onClick={clickHandeler}>
+            <span className="h-[10%] w-full bg-white group-hover:bg-primary transition" />
+            <span className="h-[10%] w-full bg-white group-hover:bg-primary transition" />
+            <span className="h-[10%] w-full bg-white group-hover:bg-primary transition" />
         </div>
         
         :
 
-        <div className={"group h-3/4 aspect-square flex flex-col justify-between py-2 relative " + " " + className} onClick={clickHandeler} >
+        <div className={"group h-1/3 sm:h-1/2 aspect-square flex flex-col justify-between py-2 relative " + " " + className} onClick={clickHandeler} >
             <span className="absolute h-1 w-full bg-white group-hover:bg-primary transition left-0 top-1/2 -translate-y-1/2 rotate-45" />
+            <span className="h-[10%] w-full bg-white group-hover:bg-primary transition hidden" />
             <span className="absolute h-1 w-full bg-white group-hover:bg-primary transition left-0 bottom-1/2 translate-y-1/2 -rotate-45" />
         </div>
     )
