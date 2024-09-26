@@ -5,9 +5,9 @@ const FormInput = ({placeholder, className=""}) => <input type="text" name={plac
 
 const TwoInputsGrp = ({ph1,ph2,type_ph1="text"}) => (
     <div className="w-full gap-1 flex flex-col md:flex-row flex-wrap max-w-4xl">
-        <input name={ph1} type={type_ph1} className="placeholder-neutral-400 bg-slate-100 px-6 py-4 md:py-8 italic focus:outline-2 focus:outline-primary flex-1 mb-4 md:mb-8" 
+        <input name={ph1} type={type_ph1} className="placeholder-neutral-400 bg-slate-100 px-6 py-4 md:py-8 italic focus:outline-2 focus:outline-primary flex-1 mb-4 md:mb-8 w-full md:w-auto" 
         placeholder={ph1} />
-        <input type="text" name={ph2} className="placeholder-neutral-400 bg-slate-100 px-6 py-4 md:py-8 italic focus:outline-2 focus:outline-primary flex-1 mb-4 md:mb-8" placeholder={ph2} />
+        <input type="text" name={ph2} className="placeholder-neutral-400 bg-slate-100 px-6 py-4 md:py-8 italic focus:outline-2 focus:outline-primary flex-1 mb-4 md:mb-8 w-full md:w-auto" placeholder={ph2} />
     </div>
 ) 
 
