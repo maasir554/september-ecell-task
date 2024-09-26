@@ -93,11 +93,9 @@ export const Navbar = () => {
         });
 
         if(showNav){
-            Nav.classList.remove("-top-full");
-            Nav?.classList.add("top-0");
+            Nav.classList.remove("-translate-y-full");
         }else{
-            Nav.classList.add("-top-full");
-            Nav?.classList.remove("top-0");
+            Nav.classList.add("-translate-y-full");
         }
     },[lastScrollY])
 
