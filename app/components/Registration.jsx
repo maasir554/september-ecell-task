@@ -1,5 +1,7 @@
 
 import { Subscribe } from "./Subscribe"
+import Image from "next/image"
+import arrowIcon from "../assets/icons/arrow.svg"
 
 const FormInput = ({placeholder, className=""}) => <input type="text" name={placeholder} className={"placeholder-neutral-400 bg-slate-100 px-6 py-4 md:py-8 italic focus:outline-2 focus:outline-primary w-full max-w-4xl mb-4 md:mb-8 "+className} placeholder={placeholder} />
 
@@ -33,7 +35,11 @@ export const Registration = () => (
             <FormInput placeholder="Brief Profile"/>
             <FormInput placeholder="Special Achievements"/>
             <FormInput placeholder="Message for your batchmates" className="h-40 "/>
-            <input type="button" value="Register Now" className="cursor-pointer bg-gradient-to-r from-secondary to-primary px-6 py-8 text-white font-semibold w-full max-w-4xl rounded-xl hover:rounded-none transition-all hover:bg-gradient-to-r hover:from-primary hover:to-secondary active:scale-95 " />
+            <button type="button" className="cursor-pointer bg-gradient-to-r from-secondary to-primary px-6 py-8 text-white font-semibold w-full max-w-4xl rounded-xl hover:rounded-none transition-all hover:bg-gradient-to-r hover:from-primary hover:to-secondary active:scale-95 flex items-center justify-between">
+            <span></span>
+            <span>Register now</span> 
+            <Image src={arrowIcon} width={49} height={23}  />
+            </button>
         </form>
     </section>
 )
